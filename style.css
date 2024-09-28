@@ -1,0 +1,44 @@
+body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type='text'] {
+    margin: 20px 0;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+input[type='text']:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.94);
+}
+
+label {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#userInput {
+    margin-top: 40px;
+}
+
+#keyLogs {
+    margin-top: 20px;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    margin-left: -40px;
+}
