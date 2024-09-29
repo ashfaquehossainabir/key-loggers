@@ -21,7 +21,7 @@ userInput.addEventListener('keydown', function(event) {
     keyPressed.push(`User pressed: ${event.key}`);
     keyPressed.push(`Ctrl Key pressed: ${event.ctrlKey}`);
     keyPressed.push(`Shift Key pressed: ${event.shiftKey}`);
-    keyPressed.push('------------------------------------');
+    keyPressed.push('--------| Logging Finished |--------');
 
     // Clear the current list
     keyList.innerHTML = '';
